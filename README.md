@@ -1,16 +1,39 @@
-# Build Applications with GitHub Copilot Agent Mode
+# Gym Tracker — Student Edition
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+A lightweight gym tracker designed for students to log workouts, track progress, and maintain workout schedules. Built to be mobile-first (React Native + Expo recommended) with a Node.js backend.
 
-Hey harinigunasekaran26!
+MVP features
+- Email + Google sign-in
+- Create and log workouts (exercises, sets, weight, reps, duration)
+- Workout history and progress charts
+- Weekly schedule and reminders
+- Export workout history (CSV)
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Recommended stack
+- Frontend: React Native + Expo (mobile) or React + PWA
+- Backend: Node.js + Express (or Next.js API)
+- Database: PostgreSQL (or Firebase for managed option)
+- Charts: Recharts / Victory / Chart.js
+- Auth: Firebase Auth or OAuth (Google) + email/password
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Getting started (local)
+1. Clone the repo
+2. For server:
+   - cd server
+   - npm install
+   - configure .env (DATABASE_URL, JWT_SECRET, GOOGLE_CLIENT_ID)
+   - npm run dev
+3. For mobile (Expo):
+   - cd mobile-app
+   - npm install
+   - expo start
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/harinigunasekaran26/skills-build-applications-w-copilot-agent-mode/issues/1)
+Roadmap / how you can contribute
+- Project setup and authentication
+- Workout logging and exercise library
+- History and progress charts
+- Reminders and calendar integration
+- Testing and deployment
 
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+Contact / owner
+- Repository owner: harinigunasekaran26
